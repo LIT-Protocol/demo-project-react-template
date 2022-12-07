@@ -36,7 +36,7 @@ function App() {
           theme="vs-dark"
           height="100vh"
           language={lang}
-          value={JSON.stringify(data, null, 2)}
+          value={lang === 'json' ? JSON.stringify(data, null, 2) : data}
         />
       </div>
     </div>
