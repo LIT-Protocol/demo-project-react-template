@@ -43,6 +43,7 @@ function App() {
           height="100vh"
           language={lang}
           value={lang === 'json' ? JSON.stringify(data, null, 2) : data}
+          options={{ wordWrap: 'on' }}
         />
       </div>
     </div>
