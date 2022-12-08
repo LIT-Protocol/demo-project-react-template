@@ -45,3 +45,18 @@
     transform: scale(2);
   }
 }
+
+h6{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  border-bottom: 1px solid white;
+}
+span{
+  font-size: 14px;
+}

@@ -9,6 +9,8 @@ function App() {
   const [appName, setAppName] = useState('@lit-protocol/demo');
   // ----- autogen:app-name:end  -----
 
+  const [npmRepo, setNpmRepo] = useState('');
+  const [demoRepo, setDemoRepo] = useState('');
   const [lang, setLang] = useState('json');
   const [data, setData] = useState({
     data: {
@@ -28,6 +30,10 @@ function App() {
         <h4>
           React Demo for: {appName}
         </h4>
+        <span>
+          <a target="_blank" href={npmRepo}>npm repo</a>&nbsp;|&nbsp;
+          <a target="_blank" href={demoRepo}>demo repo</a>
+        </span>
         <button onClick={go}>Go!</button>
       </header>
 
