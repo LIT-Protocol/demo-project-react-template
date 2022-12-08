@@ -28,7 +28,7 @@ function App() {
       <header className="App-header">
         <LitLogo />
         <h4>
-          React Demo for: {appName}
+          React Demo for: {appName}<br/>
           <span>
             <a target="_blank" href={npmRepo}>npm repo</a>&nbsp;|&nbsp;
             <a target="_blank" href={demoRepo}>demo repo</a>
