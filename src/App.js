@@ -2,6 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import LitLogo from './LitLogo';
 import Editor from '@monaco-editor/react';
+import { benchmark } from './utils';
 
 function App() {
 
