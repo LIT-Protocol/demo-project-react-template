@@ -60,3 +60,32 @@ a:hover{
 span{
   font-size: 14px;
 }
+/* small minimalist table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 400px;
+  margin-bottom: 12px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 12px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* style input fields */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
