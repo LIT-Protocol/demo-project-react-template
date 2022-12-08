@@ -29,11 +29,11 @@ function App() {
         <LitLogo />
         <h4>
           React Demo for: {appName}
+          <span>
+            <a target="_blank" href={npmRepo}>npm repo</a>&nbsp;|&nbsp;
+            <a target="_blank" href={demoRepo}>demo repo</a>
+          </span>
         </h4>
-        <span>
-          <a target="_blank" href={npmRepo}>npm repo</a>&nbsp;|&nbsp;
-          <a target="_blank" href={demoRepo}>demo repo</a>
-        </span>
         <button onClick={go}>Go!</button>
       </header>
 
