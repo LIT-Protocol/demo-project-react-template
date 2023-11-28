@@ -16,7 +16,7 @@ function App() {
   const [data, setData] = useState({
     data: {
       name: 'Lit Protocol',
-      description: 'Threadshold cryptography for the win!',
+      description: 'Threshold cryptography for the win!',
     }
   });
 
